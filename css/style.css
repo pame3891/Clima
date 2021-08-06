@@ -1,0 +1,58 @@
+* {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+      margin:auto;
+
+}
+
+h1 { 
+    text-align: center;
+}
+
+
+div {
+    background-color: silver;
+    width: fit-content;
+    height: fit-content;
+    float: inherit;
+    border: solid 4px grey ;
+    align-content: center;
+}
+#ciudad {
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+   
+}
+#temp {
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+    animation: blinker 1s infinite;
+    
+}
+
+#imagen {
+    align-content: center;
+    padding-left: 40px;
+      width: 100px;
+    height: 100px;}
+@keyframes blinker {
+    50% {
+    opacity: 0;
+    }
+    }
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    padding-left: 50px;
+}
+
+p {
+    color: aliceblue;
+    background-color: gray;
+}
+
